@@ -35,14 +35,12 @@
 
 ## 状態
 
-このプロジェクトは early MVP development の段階です。
+`maintainer-kit` は public repository として公開されており、MIT License で利用できます。
+GitHub Actions からは `v0` tag で利用できます。
 
-source code は public で、MIT License です。GitHub Action としての本番利用は、生成済みの
-`dist/index.js` bundle を含む versioned release tag 経由を想定しています。
+このリポジトリには、GitHub Action runtime に必要な生成済みの `dist/index.js` bundle も含まれています。
 
-`main` は development / testing 用として扱ってください。
-
-以下の workflow 例は、最初の release を公開したあとの想定利用方法です。
+現在は 0.x release line です。1.0 release までの間に、prompt、config、output の細部は変わる可能性があります。
 
 ## 機能
 

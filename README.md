@@ -36,14 +36,12 @@ It helps humans answer the questions that often slow down maintenance work:
 
 ## Status
 
-This project is in early MVP development.
+`maintainer-kit` is public, MIT-licensed, and usable from GitHub Actions via the `v0` tag.
 
-The source code is public and MIT-licensed. Production GitHub Action usage is intended through
-versioned release tags that include the generated `dist/index.js` bundle.
+The repository includes the generated `dist/index.js` bundle required by the GitHub Action runtime.
 
-Use `main` only for development and testing.
-
-The workflow examples below show the intended public usage after the first release is published.
+The project is currently in the 0.x release line. Prompts, config, and output details may evolve
+before a 1.0 release.
 
 ## Features
 
