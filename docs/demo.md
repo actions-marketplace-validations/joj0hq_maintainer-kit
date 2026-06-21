@@ -20,6 +20,28 @@ The brief is designed to answer:
 - What QA or release checks are needed?
 - What should the maintainer ask or do next?
 
+## Live screenshots
+
+These screenshots show `maintainer-kit` running in this repository as a dogfood workflow.
+
+### Issue Intake Brief
+
+The Issue Intake Brief turns an incomplete Issue into a maintainer-oriented summary: issue type, actionability, missing context, affected areas, and suggested next action.
+
+![Issue Intake Brief](./assets/issue-intake-brief.png)
+
+### PR Decision Brief
+
+The PR Decision Brief turns a Pull Request into a decision-focused review aid: summary, decision needed, impact map, QA checklist, and release-risk notes.
+
+![PR Decision Brief](./assets/pr-decision-brief.png)
+
+### Workflow run
+
+The workflow run shows the GitHub Actions dogfood path used to generate the public maintainer briefs.
+
+![Workflow run](./assets/workflow-run.png)
+
 ## Demo scenarios
 
 ### Issue intake brief

@@ -35,9 +35,20 @@ human maintainer can safely act on.
 This makes it useful not only for this repository, but for other OSS maintainers who want safer,
 more consistent maintainer workflows.
 
+## Demo
+
+`maintainer-kit` is dogfooded in this repository. See [docs/demo.md](docs/demo.md) for live screenshots of:
+
+- an Issue Intake Brief generated from a public Issue
+- a PR Decision Brief generated from a public Pull Request
+- the GitHub Actions workflow run that produced the maintainer brief
+
+These examples are included so reviewers and maintainers can understand the workflow quickly without installing the Action first.
+
 ## Table Of Contents
 
 - [Why This Matters](#why-this-matters)
+- [Demo](#demo)
 - [Status](#status)
 - [Used By / Early Adopters](#used-by--early-adopters)
 - [Features](#features)
